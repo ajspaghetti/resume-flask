@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex:1;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-bar span {
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.content-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.content-page div {
+  align-items: left;
+  padding-top:5%;
+  padding-left: 5%;
+  padding-right: 5%
+
+}
+
+.main-footer {
+  padding-top: 10%;
 }
